@@ -1,0 +1,45 @@
+Orders
+All orders 3
+Order # 10000003 item
+Feb 15, 2025 9:39 PM
+Paid
+AK-47 | Sample Skin (Field-Tested)
+AK-47
+Sample Skin
+$12.34
+Field-Tested Covert Rifle 0.123
+Need help?
+Total
+$12.34
+Order # 10000002 items
+Jan 8, 2025 10:11 AM
+Paid
+Demo Case
+Container
+Demo Case
+$0.50
+Base Grade Container
+Demo Case
+Container
+Demo Case
+$0.50
+Base Grade Container
+Sticker | Example Team (Holo)
+Sticker
+Example Team (Holo)
+$1.25
+Remarkable Sticker
+Need help?
+Total
+$2.25
+Order # 10000001 item
+Dec 1, 2024 8:00 AM
+Cancelled
+M4A4 | Demo Pattern (Minimal Wear)
+M4A4
+Demo Pattern
+$9.99
+Minimal Wear Classified Rifle 0.090
+Need help?
+Total
+$9.99

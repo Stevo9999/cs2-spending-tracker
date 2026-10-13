@@ -1,0 +1,9 @@
+These files are 100% made up. No real account, person, place or purchase is in them.
+Use them to try the tracker before using your own data:
+
+  Step 1  ->  option 1  ->  "Steam purchases 1.txt"
+  Step 2  ->  option 1  ->  "Market 1.txt", then option 1 again -> "Market 2.txt"
+  Step 3  ->  option 1  ->  "Marketplace 1.txt", then option 1 -> "Marketplace 2.txt", then press Enter
+
+Expected: "Dates verified against your Steam purchase history (512 of 512 rows)" in Step 2,
+and "Skipped 1 cancelled/open order(s)" for Marketplace 1.
