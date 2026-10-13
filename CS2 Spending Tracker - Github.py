@@ -280,7 +280,7 @@ def yes_no(prompt, default=False):
 
 
 def parse_price(text):
-    if "-" in text:
+    if "-" in text or re.search(r"\d[eE]\d", text):
         return None
     t = re.sub(r"[^\d.,]", "", text)
     t = t.replace(",", ".") if "," in t and "." not in t else t.replace(",", "")
@@ -1187,7 +1187,12 @@ def load_market(paths, today=None):
     seen_starts, pages, text_rows, notes = set(), [], [], []
     total_count = page_size = 0
     for path in paths:
-        text = read_file(path)
+        path = Path(path)
+        try:
+            text = read_file(path)
+        except OSError:
+            notes.append(f"{path.name}: couldn't read this file.")
+            continue
         if text.lstrip()[:1] != "{":
             rows, n = load_pipe_text(text, Path(path).stem, today)
             text_rows += rows
